@@ -1,0 +1,47 @@
+html:not(.style-scope)[dark],
+:not(.style-scope)[dark] {
+    --yt-spec-general-background-a: rgba(24, 24, 24, 0.5);
+    --ytd-searchbox-background: rgba(24, 24, 24, 0.5);
+    --ytd-searchbox-legacy-border-color: transparent;
+    --yt-spec-brand-background-primary: rgba(33,33,33,0.75);
+    --ytd-searchbox-legacy-button-border-color: transparent;
+    --ytmod-blur-strength: 20px;
+    --ytmod-temporary-panel-background: rgba(24, 24, 24, 0.75);
+}
+ytd-masthead,
+#chips-wrapper.ytd-feed-filter-chip-bar-renderer,
+.sbdd_b,
+.ytp-popup,
+.html5-video-info-panel,
+ytd-miniplayer[active],
+ytd-multi-page-menu-renderer {
+    backdrop-filter: blur(var(--ytmod-blur-strength));
+}
+
+.gsfs {
+    color: #eee !important;
+}
+
+.sbsb_d {
+    background-color: rgb(255,255,255,0.15);
+}
+
+.sbfl_b,
+.sbsb_a,
+#card.ytd-miniplayer {
+    background: none;
+}
+
+.sbdd_b {
+    background: var(--ytmod-temporary-panel-background);
+    border: none;
+}
+
+.ytp-popup,
+.html5-video-info-panel {
+    background-color: var(--ytmod-temporary-panel-background);
+}
+
+ytd-active-account-header-renderer {
+    background-color: rgba(0, 0, 0, .15);
+}
