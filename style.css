@@ -14,7 +14,8 @@ ytd-masthead,
 .ytp-popup,
 .html5-video-info-panel,
 ytd-miniplayer[active],
-ytd-multi-page-menu-renderer {
+ytd-multi-page-menu-renderer,
+.ytp-caption-segment {
     backdrop-filter: blur(var(--ytmod-blur-strength));
 }
 
