@@ -6,5 +6,5 @@ Download an [extension for your browser](https://google.com/search?q=inject+css+
 If your extension only offers the possibility to put custom css, you can use the <code>@import</code> css directive.
 
 ## Blur is not working
-If the blur effect is not working, you might need to enable the <code>backdrop-filter</code> css directive, on Firefox, you can do that by going into <code>about:config</code
+If the blur effect is not working, you might need to enable the <code>backdrop-filter</code> css directive, on Firefox, you can do that by going into <code>about:config</code>
 and by enabling the <code>layout.css.backdrop-filter.enabled</code> flag.
