@@ -16,7 +16,8 @@ ytd-masthead,
 ytd-miniplayer[active],
 ytd-multi-page-menu-renderer,
 .ytp-caption-segment,
-ytd-menu-popup-renderer {
+ytd-menu-popup-renderer,
+ytd-voice-search-dialog-renderer[dialog] {
     backdrop-filter: blur(var(--ytmod-blur-strength));
 }
 
