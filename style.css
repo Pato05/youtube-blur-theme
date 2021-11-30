@@ -15,7 +15,8 @@ ytd-masthead,
 .html5-video-info-panel,
 ytd-miniplayer[active],
 ytd-multi-page-menu-renderer,
-.ytp-caption-segment {
+.ytp-caption-segment,
+ytd-menu-popup-renderer {
     backdrop-filter: blur(var(--ytmod-blur-strength));
 }
 
@@ -29,7 +30,8 @@ ytd-multi-page-menu-renderer,
 
 .sbfl_b,
 .sbsb_a,
-#card.ytd-miniplayer {
+#card.ytd-miniplayer,
+ytd-menu-popup-renderer tp-yt-paper-listbox {
     background: none;
 }
 
@@ -39,7 +41,8 @@ ytd-multi-page-menu-renderer,
 }
 
 .ytp-popup,
-.html5-video-info-panel {
+.html5-video-info-panel,
+ytd-menu-popup-renderer {
     background-color: var(--ytmod-temporary-panel-background);
 }
 
