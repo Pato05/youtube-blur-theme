@@ -1,12 +1,12 @@
 html:not(.style-scope)[dark],
 :not(.style-scope)[dark] {
-    --yt-spec-general-background-a: rgba(24, 24, 24, 0.5);
-    --ytd-searchbox-background: rgba(24, 24, 24, 0.5);
-    --ytd-searchbox-legacy-border-color: transparent;
-    --yt-spec-brand-background-primary: rgba(33,33,33,0.75);
-    --ytd-searchbox-legacy-button-border-color: transparent;
-    --ytmod-blur-strength: 20px;
-    --ytmod-temporary-panel-background: rgba(24, 24, 24, 0.75);
+    --yt-spec-general-background-a: rgba(24, 24, 24, 0.5) !important;
+    --ytd-searchbox-background: rgba(24, 24, 24, 0.5) !important;
+    --ytd-searchbox-legacy-border-color: transparent !important;
+    --yt-spec-brand-background-primary: rgba(33,33,33,0.75) !important;
+    --ytd-searchbox-legacy-button-border-color: transparent !important;
+    --ytmod-blur-strength: 20px !important;
+    --ytmod-temporary-panel-background: rgba(24, 24, 24, 0.75) !important;
 }
 ytd-masthead,
 #chips-wrapper.ytd-feed-filter-chip-bar-renderer,
@@ -18,7 +18,7 @@ ytd-multi-page-menu-renderer,
 .ytp-caption-segment,
 ytd-menu-popup-renderer,
 ytd-voice-search-dialog-renderer[dialog] {
-    backdrop-filter: blur(var(--ytmod-blur-strength));
+    backdrop-filter: blur(var(--ytmod-blur-strength)) !important;
 }
 
 .gsfs {
@@ -26,27 +26,27 @@ ytd-voice-search-dialog-renderer[dialog] {
 }
 
 .sbsb_d {
-    background-color: rgb(255,255,255,0.15);
+    background-color: rgb(255,255,255,0.15) !important;
 }
 
 .sbfl_b,
 .sbsb_a,
 #card.ytd-miniplayer,
 ytd-menu-popup-renderer tp-yt-paper-listbox {
-    background: none;
+    background: none !important;
 }
 
 .sbdd_b {
-    background: var(--ytmod-temporary-panel-background);
-    border: none;
+    background: var(--ytmod-temporary-panel-background) !important;
+    border: none !important;
 }
 
 .ytp-popup,
 .html5-video-info-panel,
 ytd-menu-popup-renderer {
-    background-color: var(--ytmod-temporary-panel-background);
+    background-color: var(--ytmod-temporary-panel-background) !important;
 }
 
 ytd-active-account-header-renderer {
-    background-color: rgba(0, 0, 0, .15);
+    background-color: rgba(0, 0, 0, .15) !important;
 }
